@@ -26,5 +26,15 @@ function hoopCount (n) {
 }
 ```
 ***
-#
+# Education:
+* **Udmurt State University** 
+  + Mathematics and Computer Science
+* **[JavaRush](https://javarush.com)**
+* **[W3schools](https://www.w3schools.com)**
+* **[freeCodeCamp](https://www.freecodecamp.org)**
+* **[learn.javascript](https://learn.javascript.ru)**
+***
+# Languages:
+* **Russian** - native speaker.
+* **English** - B1/B2
 
