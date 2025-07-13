@@ -39,6 +39,10 @@ function hoopCount (n) {
 * **[learn.javascript](https://learn.javascript.ru)**
 
 ***
+# Experience:
+https://github.com/DPALL1N/rsschool-cv
+
+***
 # Languages:
 * **Russian** - native speaker.
 * **English** - B1/B2
