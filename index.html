@@ -23,15 +23,16 @@
                     <li class="nav-item"><a href="#codeExample" class="nav-link">Code example</a></li>
                     <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                     <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
-                    <li class="nav-item"><a href="#languges" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
-        <div class="container">
+        <div class="container main-container">
             <section class="section" id="profile">
                 <h1 class="section-title">Denis Palin</h1>
+                <img src="./img/avatar.jpg" class="cv_photo" alt="avatar" />
             </section>
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
@@ -39,7 +40,7 @@
                     <li>Phone: +255 999-765-45-24</li>
                     <li>E-mail: maindev@gmail.com</li>
                     <li>Telegram: @maindev</li>
-                    <li>GitHub: <a href="https://github.com/DPALL1N">DPALL1N</a></li>
+                    <li>GitHub: <a href="https://github.com/DPALL1N" class="link">DPALL1N</a></li>
                 </ul>
             </section>
             <section class="section" id="aboutMe">
@@ -56,10 +57,10 @@
                     <li>IntelliJ IDEA, WebStorm, VS Code</li>
                 </ul>
             </section>
-            <section class="section" id="codeExample">
+            <section class="section code-example" id="codeExample">
                 <h2 class="section-title">Code example</h2>
                 <pre>
-                    <code>
+                    <code">
                     function hoopCount (n) {
                     const HOPS_LIMIT = 10
                     return n >= HOPS_LIMIT
@@ -77,10 +78,10 @@
                             <li>Mathematics and Computer Science</li>
                         </ul>
                     </li>
-                    <li><a href="https://javarush.com">JavaRush</a></li>
-                    <li><a href="https://www.w3schools.com">W3schools</a></li>
-                    <li><a href="https://www.freecodecamp.org">freeCodeCamp</a></li>
-                    <li><a href="https://learn.javascript.ru">learn.javascript</a></li>
+                    <li><a href="https://javarush.com" class="link">JavaRush</a></li>
+                    <li><a href="https://www.w3schools.com" class="link">W3schools</a></li>
+                    <li><a href="https://www.freecodecamp.org" class="link">freeCodeCamp</a></li>
+                    <li><a href="https://learn.javascript.ru" class="link">learn.javascript</a></li>
                 </ul>
             </section>
             <section class="section" id="experience">
@@ -97,7 +98,20 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="container"></div>
+        <div class="container">
+            <a class="footer_github link" href="https://github.com/DPALL1N" target="_blank">
+                My GitHub
+            </a>
+            <p class="footer_year">2025</p>
+            <a class="footer_rsschool" href="https://rs.school/courses/javascript-ru" target="_blank">
+                <img
+                        src="./img/rs-school-logo.svg"
+                        width="86"
+                        height="32"
+                        alt="RS School"
+                />
+            </a>
+        </div>
     </footer>
 </body>
 </html>
